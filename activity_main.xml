@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B39DDB"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/bienvenidotv"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:gravity="center"
+        android:text="Bienvenido a esta mierda"
+        android:textSize="24dp" />
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:background="#9C27B0"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/metecantidadtv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="mi cantidad"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="24dp" />
+
+        <EditText
+            android:id="@+id/micuadrocantidadEt"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:ems="7"
+            android:inputType="number|numberDecimal" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/botonenviar"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:text="enviar"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+
+</LinearLayout>
